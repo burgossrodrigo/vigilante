@@ -12,8 +12,8 @@ Ethereum Node: An accessible Ethereum HTTP RPC endpoint is required. This can be
 ### Clone the Repository:
 
 ```
-git clone https://your-repository-url.com/path/to/repo
-cd repo-directory
+git clone https://github.com/dfb-chain/vigilante.git
+cd vigilante
 ```
 ### Build the Project:
 
@@ -37,7 +37,7 @@ let provider = Provider::<Http>::try_from("http://0.0.0.0:8545")
 let target_address = "0xC36442b4a4522E871399CD717aBDD847Ab11FE88".to_lowercase();
 ```
 
-Replace "http://0.0.0.0:8545" with your Ethereum node's HTTP endpoint and "0xC36442b4a4522E871399CD717aBDD847Ab11FE88" with the Ethereum address you wish to monitor.
+Replace `"http://0.0.0.0:8545"` with your Ethereum node's HTTP endpoint and "0xC36442b4a4522E871399CD717aBDD847Ab11FE88" with the Ethereum address you wish to monitor.
 
 # How It Works
 
